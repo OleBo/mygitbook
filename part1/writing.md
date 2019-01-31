@@ -1,3 +1,12 @@
+---
+search:
+    keywords: ['keyword1', 'keyword2', 'etc.']
+
+---
+
+# My Page
+
+This page will rank better if we search for 'keyword1'.
 # This is an <h1> tag
 ## This is an <h2> tag
 ###### This is an <h6> tag
