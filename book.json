@@ -6,7 +6,6 @@
     "language": "en",
     "gitbook": "3.2.3",
     "root": "./",
-    },
     "plugins": [
         "exercises",
         "katex",
