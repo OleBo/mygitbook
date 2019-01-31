@@ -1,0 +1,21 @@
+My name is {{ name }}, nice to meet you
+
+{{ foo.bar }}
+{{ foo["bar"] }}
+
+All the variables set via the book.json are available through the book variable.
+
+book.author is {{ book.author }}
+
+# Chapters about GitBook
+
+{% for article in glossary.terms['gitbook'].articles %}
+* [{{ article.title }}]({{ article.path }})
+{% endfor %}
+
+set lets you create/modify a variable.
+
+{% set softwareVersion = "1.0.0" %}
+
+Current version is {{ softwareVersion }}.
+[Download it](website.com/download/{{ softwareVersion }})
